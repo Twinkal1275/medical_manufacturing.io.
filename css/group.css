@@ -1,0 +1,955 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #028174;
+    z-index: 1;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 4%;
+}
+
+.bars {
+    color: #028174;
+}
+
+.opntgl {
+    margin-right: 3%;
+    padding: 4px;
+}
+
+.nav-link {
+    margin: auto;
+    /* background: black; */
+}
+
+
+.nav-link li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 25px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    /* background: red; */
+    margin-right: 10%;
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+.fb {
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dpdn-1 {
+    color: black;
+    background-color: #028174;
+    margin-top: 12% !important;
+}
+
+.dpdn-2 {
+    color: black;
+    background-color: #028174;
+    left: 100%;
+    top: 10%;
+}
+
+.dpdn-one:hover .dpdn-2 {
+    display: block;
+}
+
+/* =================================== */
+
+.main-nav-2 {
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    background: #028174;
+    transition: 0.5s;
+}
+
+.close {
+    position: absolute;
+    right: 9px;
+    top: -8px;
+}
+
+.fa-close {
+    color: white;
+    font-size: 16px !important;
+}
+
+.fa-home {
+    margin-right: 3%;
+}
+
+.fa-user {
+    margin-right: 3%;
+}
+
+.fa-briefcase {
+    margin-right: 3%;
+}
+
+.fa-sticky-note {
+    margin-right: 3%;
+}
+
+.fa-paper-plane {
+    margin-right: 3%;
+}
+
+.nav-2-ul {
+    line-height: 3;
+}
+
+.nav-2-ul li {
+    list-style: none;
+    border-bottom: 1px solid rgb(255 255 255 / 25%);
+    width: 87%;
+}
+
+.inptpls {
+    background: #23887dcf;
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.inptpls::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.ipt {
+    margin-bottom: 6%;
+    color: white;
+    font-weight: 600;
+}
+
+.op {
+    width: 82%;
+    margin: auto;
+    margin-top: 14%;
+    margin-bottom: 14%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-2-ul li a {
+    text-decoration: none;
+    color: rgb(255 255 255 / 75%);
+}
+
+.inpt-sd {
+    /* background: pink; */
+    width: 82%;
+    margin: auto;
+    margin-top: 18%;
+}
+
+.custom-manu {
+    /* background-color: red; */
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    /* z-index: 1; */
+    left: 1.5%;
+}
+
+
+.sbtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: #028174;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 18px !important;
+}
+
+
+
+/* ========== hiro sec start ===========  */
+.container {
+    margin-top: 4%;
+}
+
+.p-main {}
+
+.one {
+    padding: 2%;
+}
+
+.two {}
+
+h1 {
+    color: #5689C0;
+    width: fit-content;
+    letter-spacing: 3px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #028174;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: inset 1px 1px 4px #3c3a3a;
+    margin-top: 6%;
+}
+
+.cls {
+    /* background: whitesmoke; */
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/* =========== hiro sec End ==========  */
+
+/* ========== our journey Start ===========  */
+
+.our {
+    background-color: #F5F5F5;
+}
+
+.o-p-1 {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 2%;
+}
+
+.o-p-2 {}
+
+.o-p-3 {}
+
+.o-p-4 {}
+
+.o-pm {
+    width: fit-content;
+    margin: auto;
+}
+
+.opc {
+    width: fit-content;
+    color: #333333;
+    font-weight: 500;
+    font-size: 28px;
+    text-shadow: 0px 2px 1px #33333396;
+}
+
+.plus {
+    color: #45AA35;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: 0px 2px 1px #33333396;
+}
+
+.expl {
+    padding: 10px 35px;
+    box-shadow: none;
+    margin-top: 15%;
+}
+
+.r-p-1 {
+    flex-direction: column;
+}
+
+.r-p-2 {
+    padding: 5px;
+    /* background: red; */
+}
+
+.r-p-3 {
+    /* background: green; */
+    padding: 5px;
+}
+
+.lrm {
+    width: 65%;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.r-p-01 {
+    color: #45AA35;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ========== our journey End ===========  */
+
+/* ========== About Start ========== */
+
+.abt-r {
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+}
+
+.img-bdp {
+    text-align: center;
+    position: relative;
+}
+
+.img-one {
+    max-width: 60%;
+    position: relative;
+}
+
+.img-two {
+    position: absolute;
+    left: 38%;
+    max-width: 50%;
+    top: 55%;
+}
+
+.main-heading {
+    color: #5689C0;
+    width: 31%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sec-pera-one {
+    /* background: red; */
+    font-family: math;
+    width: 47%;
+}
+
+.expl-2 {
+    box-shadow: none;
+    padding: 10px 30px;
+    margin-top: 5%;
+}
+
+.main-c {
+    margin-top: 6%;
+}
+
+/* ========== About End ========== */
+
+/* =========== doctor list start =========== */
+
+.dctr {
+    margin-top: 8%;
+}
+
+.dc-1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.card {
+    border: none;
+}
+
+.c-one {
+    padding: 5px;
+}
+
+.c-two {
+    padding: 5px;
+}
+
+.c-three {
+    padding: 5px;
+}
+
+.c-four {
+    padding: 5px;
+}
+
+.tital {
+    color: #5689C0;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.card-title {
+    width: 100%;
+    text-align: center;
+    color: #5B8291;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-text {
+    color: #7E7E7E;
+    text-align: center;
+    font-weight: 100;
+}
+
+.card-img-top {
+    width: 100%;
+    margin: auto;
+}
+
+/* ------ seprater Start -----  */
+
+.seprater {
+    background: #5689C0;
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    position: relative;
+    border-radius: 25px;
+    border: 3px solid #028174;
+}
+
+.seprater::after {
+    content: " ";
+    background: #028174;
+    width: 84px;
+    height: 2px;
+    margin: auto;
+    position: absolute;
+    left: 30px;
+    top: 8px;
+}
+
+.seprater::before {
+    content: " ";
+    background: #028174;
+    width: 84px;
+    height: 2px;
+    margin: auto;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+}
+
+/* ------ seprater End -----  */
+
+
+/* ====== contact page ====== */
+.card
+{
+    width: 33% !important;
+}
+li
+{
+    list-style-type: none !important;
+}
+.num
+{
+    text-decoration: none;
+    list-style-type: none !important;
+    margin-left: 29%;
+}
+.call
+{
+    position: absolute;
+    margin-left: 8%; 
+    font-size: 50px;  
+}
+input:hover, textarea:hover
+{
+    box-shadow: 0px 1px 10px gray;
+}
+/* =========== doctor list End =========== */
+
+/* ========== Footer Start ========== */
+
+.ftr-main {
+    background-color: #028174;
+    padding: 5px;
+}
+
+.ftr-rw {
+    padding: 2%;
+    width: 100%;
+    margin: auto;
+}
+
+.ftr-cl {
+    padding: 5px;
+    background-color: #028174;
+}
+
+.ftr-cl-1 {
+    padding: 5px;
+}
+
+.head-4 {
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+.mini {
+    color: white;
+    margin-top: 6%;
+}
+
+.srchbr {
+    width: 90%;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid white;
+    display: flex;
+    margin-top: 10%;
+}
+
+.ipt-1 {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 80%;
+    padding: 5px 18px;
+}
+
+.ipt-1::placeholder {
+    color: white;
+}
+
+.jnw {
+    width: 40%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: white;
+    color: #A4A4A4;
+    font-size: 14px;
+}
+
+.cmd-1 {
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.lst-1 {
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+}
+
+.list-1 {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list-1 li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.list-1 li {
+    list-style: none;
+}
+
+.sec-list {
+    width: 100%;
+    margin: auto;
+}
+
+.list-2 {
+    padding: 5px;
+}
+
+.list-3 {
+    padding: 5px;
+}
+
+.list-5 {
+    line-height: 42px;
+    font-weight: 700;
+    width: fit-content;
+    margin: auto;
+}
+
+.list-5 li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.list-5 li {
+    list-style: none;
+}
+
+.list-6 {
+    line-height: 42px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.list-6 li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.list-6 li {
+    list-style: none;
+}
+
+/* ====  investor page ===== */
+
+.investor img
+{
+    width: 20%;
+    height: 600px;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+/* ========== Footer End ========== */
+
+/* about page */
+.about
+{
+    background: url(../images/bg4.avif) no-repeat fixed;
+    background-position: top;
+    background-size :cover;
+}
+
+
+/* ======================== Product list Start ======================== */
+
+.list-of-product {
+    padding: 5px;
+    background: #f3f5f6;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 20px 0px gray;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+}
+
+.product-one {
+    padding: 4px;
+    width: 100%;
+    margin: auto;
+}
+
+.one-c {
+    padding: 21px;
+}
+
+.two-c {
+    padding: 5px;
+}
+
+.three-c {
+    padding: 5px;
+}
+
+.four-c {
+    padding: 21px;
+    text-align: center;
+}
+
+.p-h a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.p-h a:hover {
+    text-decoration: underline;
+}
+
+.btn-one {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 6px 20px;
+    color: white;
+    background: #028174;
+    font-weight: 500;
+    margin-top: 6%;
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.p-list {
+    padding: 21px;
+}
+
+.mh-p {
+    width: fit-content;
+    padding: 10px;
+}
+
+.d-f-1 {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3;
+}
+
+.p-m-1 {
+    margin-bottom: 0;
+    width: 50%;
+    color: #595959;
+}
+
+.p-m-2 {
+    margin-bottom: 0;
+    width: 50%;
+    color: #352354;
+}
+
+.bdr-lg {
+    border: 1px solid gray;
+}
+
+.contact
+{
+    background: url(../images/cont.png) no-repeat fixed;
+    background-position: right bottom;
+    background-size: auto;
+}
+/* ======================== Product list End ======================== */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .img-one {
+        max-width: 90%;
+        position: relative;
+    }
+
+    .img-two {
+        position: absolute;
+        left: 39%;
+        max-width: 68%;
+        top: 62%;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .main-c {
+        margin-left: 6%;
+    }
+
+    .sec-pera-one {
+        width: 58%;
+    }
+
+    .dctr {
+        margin-top: 10%;
+    }
+
+    .dpdn-one:hover .dpdn-2 {
+        display: block;
+    }
+
+
+    /* ======================== Product list Start ======================== */
+
+    .d-f-1 {
+        display: flex;
+        justify-content: space-evenly;
+        line-height: normal;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    /* ======================== Product list End ======================== */
+}
+.contact
+{
+    width: 95% !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .nav-link li {
+        display: block;
+    }
+
+    .dpdn-1 {
+        margin-top: 0% !important;
+    }
+
+    h1 {
+        color: #5689C0;
+        width: fit-content;
+        letter-spacing: 3px;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .cls {
+        align-items: center;
+    }
+
+    .two {
+        margin-top: 6%;
+    }
+
+    .custom-manu {
+        top: 15%;
+    }
+
+    .main-nav-2 {
+        height: auto;
+    }
+
+    .our {
+        margin-top: 10%;
+    }
+
+    .o-pm {
+        text-align: center;
+    }
+
+    .opc {
+        width: auto;
+    }
+
+    .r-p-2,
+    .r-p-3 {
+        text-align: center;
+    }
+
+    .lrm {
+        margin: auto;
+    }
+
+    .o-p-3 {
+        margin-top: 15%;
+    }
+
+    .main-c {
+        text-align: center;
+        margin-top: 14%;
+    }
+
+    .main-heading {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .sec-pera-one {
+        font-family: math;
+        width: 67%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .list-1 {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .list-2,
+    .list-3 {
+        width: 50%;
+    }
+
+    .list-5,
+    .list-6 {
+        line-height: 34px;
+        font-weight: 500;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .cmd-1 {
+        width: 95%;
+    }
+
+    .srchbr {
+        width: 100%;
+    }
+
+    .ipt-1 {
+        font-size: 12px;
+    }
+
+    .dpdn-one:hover .dpdn-2 {
+        display: block;
+    }
+    .contact
+{
+    width: 95% !important;
+}
+
+
+
+    /* ======================== Product list Start ======================== */
+
+    .d-f-1 {
+        display: flex;
+        justify-content: space-evenly;
+        line-height: normal;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    /* ======================== Product list End ======================== */
+}
+@media only screen and (max-width: 767px) {
+    .contact
+    {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .video
+    {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 350px !important;
+    }
+    .report
+    {
+        width: 100% !important;
+        margin: 0% !important;
+        padding: 0 !important;
+        height: 270px !important;
+    }
+    .card
+    {
+        /* margin-left: 17% !important; */
+        width: 100% !important;
+    }
+}
